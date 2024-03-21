@@ -1,0 +1,264 @@
+body {
+    background-color: #ffa50038;
+}
+
+.parent {
+    background-color: white;
+    width: 600px;
+    height: 1570px;
+    position: absolute;
+    left: 30%;
+    top: 15%;
+}
+
+
+
+.image img {
+    width: 570px;
+    height: 300px;
+    top: 18%;
+    margin-left: 31%;
+    position: absolute;
+}
+
+.details h2 {
+    position: absolute;
+    left: 31%;
+    top: 64%;
+}
+
+.details p {
+    position: absolute;
+    left: 31%;
+    top: 70%;
+}
+
+.time {
+    background-color: #dda0dd45;
+    width: 570px;
+    height: 160px;
+    margin-left: 15px;
+    position: absolute;
+    top: 82%;
+    left: 30%;
+}
+
+.time h2 {
+    margin-left: 15px;
+    color: purple;
+}
+
+.time .list {
+    display: grid;
+    justify-content: space-between;
+}
+
+.time .list li {
+    margin-top: 10px;
+}
+
+.time b {
+    margin-left: 20px;
+}
+
+.food h2 {
+    margin-left: 15px;
+    color: chocolate;
+    position: absolute;
+    top: 108%;
+    left: 31%;
+}
+
+.food .type {
+    position: absolute;
+    top: 114%;
+    left: 31%;
+}
+
+.food li {
+    margin-top: 10px;
+}
+
+.food b {
+    margin-left: 10px;
+}
+
+.food hr {
+    width: 550px;
+    position: absolute;
+    top: 142%;
+    left: 33%;
+}
+
+.inst h2 {
+    position: absolute;
+    top: 145%;
+    left: 33%;
+    color: chocolate;
+}
+
+
+.inst ol {
+    position: absolute;
+    top: 150%;
+    left: 31%;
+}
+
+.inst li {
+    margin-top: 20px;
+}
+
+::marker {
+    color: chocolate;
+}
+
+.inst hr {
+    position: absolute;
+    top: 203%;
+    left: 33%;
+    width: 550px;
+}
+
+.nut {
+    position: absolute;
+    top: 210%;
+    margin-left: 20px;
+    left: 31%;
+}
+
+.nut hr {
+    width: 550px;
+}
+
+.nut h2 {
+    color: chocolate;
+}
+
+.one b {
+    margin-left: 250px;
+    color: chocolate;
+}
+
+.two b {
+    margin-left: 285px;
+    color: chocolate;
+}
+
+.three b {
+    margin-left: 275px;
+    color: chocolate;
+}
+
+.four b {
+    margin-left: 300px;
+    color: chocolate;
+}
+
+@media (max-width: 767px) {
+    .parent {
+        width: 377px;
+        height: 1841px;
+        position: absolute;
+        left: 0%;
+        top: 0%;
+    }
+
+    .image img {
+        width: 380px;
+        height: 300px;
+        top: 0%;
+        margin-left: -3%;
+        position: absolute;
+    }
+
+    .details h2 {
+        position: absolute;
+        left: 1%;
+        top: 39%;
+    }
+
+    .details p {
+        position: absolute;
+        left: 4%;
+        top: 45%;
+        font-size: 19px;
+    }
+
+    .time {
+        width: 290px;
+        height: 176px;
+        position: absolute;
+        top: 62%;
+        left: 5%;
+    }
+
+    .time .list {
+        font-size: 14px;
+    }
+
+    .food h2 {
+        position: absolute;
+        top: 85%;
+        left: 10%;
+    }
+
+    .food .type {
+        position: absolute;
+        top: 90%;
+        left: 9%;
+    }
+
+    .food hr {
+        width: 300px;
+        position: absolute;
+        top: 115%;
+        left: 17%;
+    }
+
+    .inst h2 {
+        position: absolute;
+        top: 117%;
+        left: 17%;
+    }
+
+    .inst ol {
+        position: absolute;
+        top: 121%;
+        left: 10%;
+        font-size: 16px;
+    }
+
+    .inst hr {
+        width: 295px;
+        position: absolute;
+        top: 186%;
+        left: 20%;
+    }
+
+    .nut {
+        position: absolute;
+        top: 189%;
+        left: 12%;
+    }
+
+    .nut hr {
+        width: 245px;
+        margin-left: 0px;
+    }
+
+    .one b {
+        margin-left: 125px;
+    }
+
+    .two b {
+        margin-left: 160px;
+    }
+
+    .three b {
+        margin-left: 150px;
+    }
+
+    .four b {
+        margin-left: 178px;
+    }
+}
